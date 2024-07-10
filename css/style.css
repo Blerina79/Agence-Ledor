@@ -1,0 +1,171 @@
+/* reset*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background:#eee;
+    color: #333;
+}
+
+p{
+   margin-bottom: 0.8rem; 
+}
+
+h1, h2, h3, h4 {
+   margin-bottom: 1rem;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* vp - header*/
+
+.vp-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+}
+
+.title{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+header{
+    background:#333;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between; 
+    line-height: 2rem;
+  }
+
+  header a {
+    color: white;
+  }
+
+  header ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+  }
+
+  header ul li {
+    padding: 1rem;
+  }
+
+  header ul li a:hover{
+    color: #f1c40f;
+  }
+
+  .vp-logo{
+    margin-bottom: 0;
+    font-family: "Long Cang", cursive;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+  }
+
+  .vp-logo  i {
+     color: #f1c40f;
+     font-size: 1.5rem;
+     margin-right: 0.5rem;
+  }
+
+  .vp-logo a {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+
+.vp{
+    background:url(../img/agence.jpg) center center;
+    background-size: cover;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vp-content{
+    max-width: 800px;
+    text-align: center;
+    color: white;
+}
+
+.vp-content h1 {
+ font-size: 3.5rem;
+ margin-bottom: 2rem;
+}
+
+.vp-content p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+strong{
+    color: #f1c40f;
+    font-weight: 500;
+}
+
+
+
+/* offer*/
+
+.offer{
+   padding: 10rem 1rem 10rem 1rem; 
+}
+
+.offer-list{
+    display:flex ;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+}
+
+.offer-elem{
+    border: 1px solid #ddd;
+    background: white;
+    margin: 1rem;
+    flex: 1;
+}
+
+.offer-elem-img{
+    width: 100%;
+}
+
+.offer-elem-text{
+    padding: 2rem;
+    text-align: center;
+}
+
+.offer-separator {
+   height: 1px;
+   width: 50px;
+   margin:1rem auto;
+   background: #333;
+}
+
+
+
