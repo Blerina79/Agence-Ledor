@@ -167,5 +167,42 @@ strong{
    background: #333;
 }
 
+/*equipe*/
 
+
+.who {
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 600px;
+}
+
+.who-content-img{
+    flex:1
+}
+
+.who-content-img img {
+    width: 100%;
+}
+
+.who-content-text{
+    flex: 1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .who-content-text h2{
+    margin-bottom: 2rem;
+  }
+
+  .bg-dark{
+    background: #333;
+    color: white;
+  }
+ .who-content-text p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+
+ }
 
